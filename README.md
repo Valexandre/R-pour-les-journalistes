@@ -2,6 +2,13 @@
 R est un programme et un langage gratuit et open-source. Pensé par et pour des statisticiens, il accueille aujourd'hui aussi bien des biologistes, des sismologues et... des datajournalistes.
 L'idée de cette page est d'encourager les journalistes français, curieux des outils utilisés pour le datajournalisme, à choisir R comme solution pour réaliser leurs traitements statistiques et leurs visualisations.
 
+# Comment ça marche ?
+
+## C'est quoi le principe ? 
+
+Le principe de base, c'est qu'un logiciel qui fonctionne par script permet de contrôler davantage les différentes étapes d'un traitement de données. Récupérer ou retrouver un tableur dans lequel les entêtes ne sont pas clairs et dabs lequel les formules ont été effacées suffit pour percevoir les grands avantages qu'il peut y avoir a transmettre ou conserver
+
+
 # R pour la création et manipulation de bases de données
 
 R est un langage particulièrement utile pour réaliser des opérations sur de grandes bases de données et pour les maintenir dans des formats accessibles pour le plus grand nombre.
