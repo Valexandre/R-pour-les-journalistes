@@ -6,7 +6,8 @@ L'idée de cette page est d'encourager les journalistes français, curieux des o
 
 ## C'est quoi le principe ? 
 
-Le principe de base, c'est qu'un logiciel qui fonctionne par script permet de contrôler davantage les différentes étapes d'un traitement de données. Récupérer ou retrouver un tableur dans lequel les entêtes ne sont pas clairs et dabs lequel les formules ont été effacées suffit pour percevoir les grands avantages qu'il peut y avoir a transmettre ou conserver
+Le principe de base, c'est qu'un logiciel qui fonctionne par script permet de contrôler davantage les différentes étapes d'un traitement de données. Récupérer ou retrouver un tableur dans lequel les entêtes ne sont pas clairs et dans lequel les formules ont été effacées suffit pour percevoir les grands avantages qu'il peut y avoir a transmettre ou conserver un script.
+S'il y a une incohérence finale, il suffit de repasser pas à pas sur les différentes étapes du script.
 
 
 # R pour la création et manipulation de bases de données
@@ -14,6 +15,7 @@ Le principe de base, c'est qu'un logiciel qui fonctionne par script permet de co
 R est un langage particulièrement utile pour réaliser des opérations sur de grandes bases de données et pour les maintenir dans des formats accessibles pour le plus grand nombre.
 
 ## Base R : subset, t, str, as.ch, as.num, as.POSIX
+La structure la plus importante de R, au niveau débutant en tous cas, est le dataframe. C'est notre tableur
 
 ## Tidyverse : Dplyr: group_by, filter
 
