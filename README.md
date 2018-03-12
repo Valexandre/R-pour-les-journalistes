@@ -15,7 +15,10 @@ S'il y a une incohérence finale, il suffit de repasser pas à pas sur les diff�
 R est un langage particulièrement utile pour réaliser des opérations sur de grandes bases de données et pour les maintenir dans des formats accessibles pour le plus grand nombre.
 
 ## Base R : subset, t, str, as.ch, as.num, as.POSIX
-La structure la plus importante de R, au niveau débutant en tous cas, est le dataframe. C'est notre tableur
+La structure la plus importante de R, au niveau débutant en tous cas, est le dataframe. C'est notre tableur. Il faut simplement tenter d'y penser légèrement différemment. La bonne pratique du dataframe, c'est de ranger une observation (un individu, une année, etc) par ligne et d'indiquer l'ensemble de ses caractéristiques dans les colonnes du dataframe.
+
+On peut appeler son contenu en utilisant les coordonnées des cellules qui nous intéresse, dans l'ordre ligne, colonne. Par exemple tableur[1,2]. De la même façon, on peut appeler toutes les valeurs de la première ligne avec tableur [1,] et toutes celles de la première colonne avec tableur [,1]
+On peut aussi sélectionner toutes les valeurs d'une variable avec le $, par exemple tableur$variable.
 
 ## Tidyverse : Dplyr: group_by, filter
 
@@ -30,7 +33,7 @@ La structure la plus importante de R, au niveau débutant en tous cas, est le da
 ### Summarise
 ### Mutate
 
-# R for article creation
+# R for article creationo
 
 ## Rmarkdown for text : word/pdf/HTML/blog/bookdown
 
