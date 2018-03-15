@@ -23,9 +23,10 @@ Autre point important de R : le signe <- : il permet d'attribuer une valeur à u
 Ce petit exemple nous amène à un gros avantage de R, sa capacité à stocker dans un dataframe un ensemble de valeurs diverses, des dates, des valeurs numériques, du texte, mais aussi des listes de dates, des listes de chiffres, etc.
 Vous avez déjà utilisé Excel. Si vous avez deja tenté d'indiquer une date sans année dans une cellule, vous avez eu affaire avec l'irrepressible besoin de Excel de reformater des cellules derrière vous. Votre 1/12 pour premier décembre est devenu 12 janvier 2018 en texte et bon courage pour modifier ce comportement de votre tableur. R va vous aider et beaucoup.
 
+
 ## Tidyverse : Dplyr: group_by, filter
 
-# R for stats
+# R pour le traitement statistique
 
 ## Base R
 ### Tables &  proptables
@@ -36,30 +37,34 @@ Vous avez déjà utilisé Excel. Si vous avez deja tenté d'indiquer une date sa
 ### Summarise
 ### Mutate
 
-# R for article creationo
+# R pour la création de contenus
 
-## Rmarkdown for text : word/pdf/HTML/blog/bookdown
+## Rmarkdown pour formater du texte : word/pdf/HTML/blog/bookdown
 
-## R data to video
+## R pour créer des vidéos
 
-## R data to audio
+## R pour créer des sons
 
-# R for dataviz
+# R pour la dataviz
 
-## Static dataviz
+## Dataviz statique
 ### Base: plot, hist, boxplot, points
 ### Ggplot2 : geom_bar, geom_line, geom_point, geom_jitter, facet_grid
 
-## animated dataviz
+## Dataviz animée
 
-# R for cartography
+## Dataviz interactive
+
+# R pour la cartographie
+
 Geocode, distance
 ## Simple rgdal
 ## Package gmap
 ## Package leaflet
-# R for interactive dataviz
 
-# R for everything else (?)
+
+
+# R pour tout le reste (?)
 ## Text mining with Iramuteq
 ## Web scraping with Rvest
 ## Pdf scraping
