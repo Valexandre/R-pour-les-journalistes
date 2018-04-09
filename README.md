@@ -10,6 +10,7 @@ Le principe de base, c'est qu'un logiciel qui fonctionne par script permet de co
 S'il y a une incohérence finale, il suffit de repasser pas à pas sur les différentes étapes du script.
 
 R est un langage particulièrement utile pour réaliser des opérations sur de grandes bases de données et pour les maintenir dans des formats accessibles pour le plus grand nombre.
+S'il devait y avoir un seul élément à comprendre pour se mettre à R, et donc vraisemblablement pour permettre une transition sereine entre Excel et R, c'est qu'il n'est pas nécessaire d'avoir en permanence les données dont on s'occupe sous le nez. Excel permet donne la primeur à la vue des données, R à la clarté du traitement qui leur est imputé.
 
 # R pour la création et manipulation de bases de données
 
@@ -22,6 +23,7 @@ Autre point important de R : le signe <- : il permet d'attribuer une valeur à u
 ## Base R : subset, t, str, as.ch, as.num, as.POSIX
 Ce petit exemple nous amène à un gros avantage de R, sa capacité à stocker dans un dataframe un ensemble de valeurs diverses, des dates, des valeurs numériques, du texte, mais aussi des listes de dates, des listes de chiffres, etc.
 Vous avez déjà utilisé Excel. Si vous avez deja tenté d'indiquer une date sans année dans une cellule, vous avez eu affaire avec l'irrepressible besoin de Excel de reformater des cellules derrière vous. Votre 1/12 pour premier décembre est devenu 12 janvier 2018 en texte et bon courage pour modifier ce comportement de votre tableur. R va vous aider et beaucoup.
+R possède, de base, un ensemble d'opérations qui permet d'interpréter un élément selon différents critères. as.character(element) comprendra l'élément comme du texte, as.numeric(element) l'interpretera, si possible, comme un nombre, et s'il n'y arrive pas comme une valeur manquante. as.date(element, "m/d") interprétera les données comme une date au format mois/jour. Pour en apprendre davantage sur as.date ainsi que sur toutes les autres commandes de R, il suffit de taper ?nomdelafonction ou help nomdelafonction.
 
 
 ## Tidyverse : Dplyr: group_by, filter
