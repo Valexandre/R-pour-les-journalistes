@@ -24,9 +24,11 @@ Autre point important de R : le signe <- : il permet d'attribuer une valeur à u
 Ce petit exemple nous amène à un gros avantage de R, sa capacité à stocker dans un dataframe un ensemble de valeurs diverses, des dates, des valeurs numériques, du texte, mais aussi des listes de dates, des listes de chiffres, etc.
 Vous avez déjà utilisé Excel. Si vous avez deja tenté d'indiquer une date sans année dans une cellule, vous avez eu affaire avec l'irrepressible besoin de Excel de reformater des cellules derrière vous. Votre 1/12 pour premier décembre est devenu 12 janvier 2018 en texte et bon courage pour modifier ce comportement de votre tableur. R va vous aider et beaucoup.
 R possède, de base, un ensemble d'opérations qui permet d'interpréter un élément selon différents critères. as.character(element) comprendra l'élément comme du texte, as.numeric(element) l'interpretera, si possible, comme un nombre, et s'il n'y arrive pas comme une valeur manquante. as.date(element, "m/d") interprétera les données comme une date au format mois/jour. Pour en apprendre davantage sur as.date ainsi que sur toutes les autres commandes de R, il suffit de taper ?nomdelafonction ou help nomdelafonction.
+Un élément est particulièrement utile au sein de l'environnement R: la commande subset. R parvient à charger de lourdes bases de données, mais on a rarement besoin de l'intégralité des données présentes. Dans ce cas, et pour mettre au point une base de données optimale, il suffit d'indiquer à subset les conditions de découpage du jeu de données initial. 
+Si l'on veut extraire l'ensemble des éléments à Paris,il suffira d'appeler la commande subset(jeudedonnees, ville=="Paris").
+Pour ne garder du jeu de données initial qur les valeurs supérieures a 6, subset(jeudedonnees, ville=="Paris" & valeur >6). Et dans le cas où 
 
-
-## Tidyverse : Dplyr: group_by, filter
+## Tidyverse : group_by, filter
 
 # R pour le traitement statistique
 
