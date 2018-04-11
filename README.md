@@ -26,9 +26,15 @@ Vous avez déjà utilisé Excel. Si vous avez deja tenté d'indiquer une date sa
 R possède, de base, un ensemble d'opérations qui permet d'interpréter un élément selon différents critères. as.character(element) comprendra l'élément comme du texte, as.numeric(element) l'interpretera, si possible, comme un nombre, et s'il n'y arrive pas comme une valeur manquante. as.date(element, "m/d") interprétera les données comme une date au format mois/jour. Pour en apprendre davantage sur as.date ainsi que sur toutes les autres commandes de R, il suffit de taper ?nomdelafonction ou help nomdelafonction.
 Un élément est particulièrement utile au sein de l'environnement R: la commande subset. R parvient à charger de lourdes bases de données, mais on a rarement besoin de l'intégralité des données présentes. Dans ce cas, et pour mettre au point une base de données optimale, il suffit d'indiquer à subset les conditions de découpage du jeu de données initial. 
 Si l'on veut extraire l'ensemble des éléments à Paris,il suffira d'appeler la commande subset(jeudedonnees, ville=="Paris").
-Pour ne garder du jeu de données initial qur les valeurs supérieures a 6, subset(jeudedonnees, ville=="Paris" & valeur >6). Et dans le cas où 
+Pour ne garder du jeu de données initial qur les valeurs supérieures a 6, subset(jeudedonnees, ville=="Paris" & valeur >6). Et dans le cas où l'on veut garder les éléments qui correspondent à l'un ou l'autre possibilité, on utilise la commande |.
 
 ## Tidyverse : group_by, filter
+Arrive à présent le moment d'évoquer le tidyverse, de tidy et universe. Il s'agit d'un ensemble de packages qui fonctionnent sur le même principe : simplifier les enchaînements de commandes, via une pipe (prononcer païpe et écrire %>%).
+Énorme avantage du tidyverse : la lecture du code est rendue beaucoup plus claire. Par exemple : 
+meteofrance%>%
+  group_by(villes,mois)%>%
+  filter(temperature<0)
+Quelqu'un ne connaissant rien de r, et même peu d'anglais, pourrait comprendre l'opération réalisée avec cet suite de %>%.
 
 # R pour le traitement statistique
 
