@@ -38,9 +38,14 @@ Quelqu'un ne connaissant rien de r, et même peu d'anglais, pourrait comprendre 
 
 # R pour le traitement statistique
 
+On entre ici dans le cœur des compétences de R. Cette introduction étant destinée à des journalistes, je vais simplement évoquer quelques unes des possibilités offertes par R dans ce domaine, et, dans la mesure du possible, celles qui seront les plus utiles.
+
 ## Base R
 ### Tables &  proptables
+Compter le nombre de modalités d'une d'un jeu de données : table(meteofrance$villes) liste l'ensemble des villes présentes.  
 ### Summary
+
+
 ### Max, min, which, mean
 ## Dplyr
 ### Group_y, select
